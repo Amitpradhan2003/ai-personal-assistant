@@ -6,14 +6,14 @@ groq
 # Streamlit
 streamlit==1.33.0
 
-# LangChain (pin exact versions)
+# LangChain ecosystem (compatible set)
 langchain==0.1.13
 langchain-core==0.1.42
-langchain-community==0.0.28
+langchain-community==0.0.29
 langchain-groq==0.1.0
 
-# Pydantic v1 (LangChain agent requires this)
+# Pydantic v1 (needed for agents)
 pydantic==1.10.12
 
-# LangSmith pinned to avoid Pydantic v2 crash
-langsmith==0.0.83
+# LangSmith compatible with pydantic v1
+langsmith==0.1.17
