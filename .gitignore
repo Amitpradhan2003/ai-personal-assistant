@@ -1,7 +1,22 @@
+# Python
 __pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
 .env
+
+# Streamlit logs
+.streamlit/
+
+# Database files
 *.db
 *.sqlite
-*.pyc
-.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Project files
 data/todos.json
