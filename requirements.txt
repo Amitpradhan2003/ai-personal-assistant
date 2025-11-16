@@ -3,17 +3,13 @@ requests
 duckduckgo-search
 groq
 
-# Streamlit
 streamlit==1.33.0
 
-# LangChain ecosystem (COMPATIBLE)
 langchain==0.1.13
 langchain-core==0.1.42
 langchain-community==0.0.29
 langchain-groq==0.1.0
 
-# Pydantic v1 support for agents
 pydantic==1.10.12
 
-# LangSmith (compatible with pydantic v1)
-langsmith==0.1.17
+langsmith==0.0.0
